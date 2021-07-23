@@ -20,14 +20,10 @@ Current neural architecture search (NAS) algorithms still require expert knowled
 ## Performance
 Model performance at different computation budget with model searched with AutoSpace using ProxylessNAS:
 
-<p align="center">
-  
 Model|Param.(M)|Madd(M)|Top-1 Acc.(%)
----|---|---|---
+:---:|:---:|:---:|:---:
 AutoSpace-PNAS|3.3|175|71.1
 AutoSpace-PNAS|4.3|340|75.3
 AutoSpace-PNAS|4.7|430|75.7
 AutoSpace-PNAS|6.4|570|77.0
 AutoSpace-PNAS - 1.4x|7.2|650|77.2
-
-</p>
